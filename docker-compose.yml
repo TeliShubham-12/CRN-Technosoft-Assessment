@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: product_sqlserver
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=YourStrong@Passw0rd!
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserver_data:/var/opt/mssql/data
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P 'YourStrong@Passw0rd!' -Q 'SELECT 1' || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  api:
+    image: productapi:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: product_api
+    ports:
+      - "5000:8080"
+      - "5001:8081"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - UseInMemoryDatabase=false
+      - ConnectionStrings__DefaultConnection=Server=sqlserver,1433;Database=ProductDb;User Id=sa;Password=YourStrong@Passw0rd!;TrustServerCertificate=True;
+      - JwtSettings__SecretKey=SuperSecretKeyForAssessmentThatIsAtLeast32BytesLong!
+      - JwtSettings__Issuer=ProductApi
+      - JwtSettings__Audience=ProductApiUsers
+      - JwtSettings__ExpiryMinutes=60
+      - JwtSettings__RefreshTokenExpiryDays=7
+    depends_on:
+      sqlserver:
+        condition: service_healthy
+
+volumes:
+  sqlserver_data:

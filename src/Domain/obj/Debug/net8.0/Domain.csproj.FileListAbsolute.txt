@@ -1,0 +1,12 @@
+X:\CRN-Technosoft-Assessment\src\Domain\bin\Debug\net8.0\Domain.deps.json
+X:\CRN-Technosoft-Assessment\src\Domain\bin\Debug\net8.0\Domain.dll
+X:\CRN-Technosoft-Assessment\src\Domain\bin\Debug\net8.0\Domain.pdb
+X:\CRN-Technosoft-Assessment\src\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+X:\CRN-Technosoft-Assessment\src\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+X:\CRN-Technosoft-Assessment\src\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+X:\CRN-Technosoft-Assessment\src\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+X:\CRN-Technosoft-Assessment\src\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+X:\CRN-Technosoft-Assessment\src\Domain\obj\Debug\net8.0\Domain.dll
+X:\CRN-Technosoft-Assessment\src\Domain\obj\Debug\net8.0\refint\Domain.dll
+X:\CRN-Technosoft-Assessment\src\Domain\obj\Debug\net8.0\Domain.pdb
+X:\CRN-Technosoft-Assessment\src\Domain\obj\Debug\net8.0\ref\Domain.dll

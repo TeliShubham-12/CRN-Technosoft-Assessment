@@ -1,0 +1,16 @@
+X:\CRN-Technosoft-Assessment\src\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+X:\CRN-Technosoft-Assessment\src\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+X:\CRN-Technosoft-Assessment\src\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+X:\CRN-Technosoft-Assessment\src\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+X:\CRN-Technosoft-Assessment\src\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+X:\CRN-Technosoft-Assessment\src\Application\obj\Debug\net8.0\Application.sourcelink.json
+X:\CRN-Technosoft-Assessment\src\Application\bin\Debug\net8.0\Application.deps.json
+X:\CRN-Technosoft-Assessment\src\Application\bin\Debug\net8.0\Application.dll
+X:\CRN-Technosoft-Assessment\src\Application\bin\Debug\net8.0\Application.pdb
+X:\CRN-Technosoft-Assessment\src\Application\bin\Debug\net8.0\Domain.dll
+X:\CRN-Technosoft-Assessment\src\Application\bin\Debug\net8.0\Domain.pdb
+X:\CRN-Technosoft-Assessment\src\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
+X:\CRN-Technosoft-Assessment\src\Application\obj\Debug\net8.0\Application.dll
+X:\CRN-Technosoft-Assessment\src\Application\obj\Debug\net8.0\refint\Application.dll
+X:\CRN-Technosoft-Assessment\src\Application\obj\Debug\net8.0\Application.pdb
+X:\CRN-Technosoft-Assessment\src\Application\obj\Debug\net8.0\ref\Application.dll
